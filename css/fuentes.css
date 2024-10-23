@@ -1,15 +1,14 @@
 
 *{
     font-family: "Roboto", sans-serif;
-    font-weight: 100;
+    font-weight:0;
     font-style: normal;
     box-sizing: border-box;
     padding: 0px;
   }
 
-  .centrado{
-    text-align: center;
-  }
+
+
   .centradoImagen {
     box-sizing: content-box;
     display: block;
@@ -89,3 +88,12 @@
       font-style: italic;
     }
     
+    .contenedor {
+      background-color: rgb(223, 223, 223);
+      padding: 3px 6px 3px 2px; /* Se puede simplificar el padding */
+      max-width: 60%;
+      margin: 0 auto; /* Centrar el contenedor */
+      box-shadow: 10px 10px 1px 1px rgb(199, 190, 199);
+      border: 1px solid #f5cee4;
+      border-radius: 20px;
+  }

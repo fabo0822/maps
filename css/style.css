@@ -1,0 +1,49 @@
+h1, p {
+    text-align: center;
+}
+.centrado {
+    text-align: center;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(103, 160, 155);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: rgb(45, 59, 121);
+}
+.indice {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.enlaces {
+    display: flex; /* Usar flexbox para alinear en línea */
+    flex-wrap: wrap; /* Permitir que se envuelvan si es necesario */
+
+}
+
+.enlaces a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(36, 122, 138);
+    margin-right: 10px; /* Espaciado entre enlaces */
+}
+
+.enlaces a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+.izquierda{
+    text-align: left;
+}
